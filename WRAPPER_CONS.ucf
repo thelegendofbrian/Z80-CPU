@@ -1,0 +1,38 @@
+
+
+NET "clk" LOC = B8;
+NET "switches[0]" LOC = G18;
+NET "switches[1]" LOC = H18;
+NET "switches[2]" LOC = K18;
+NET "switches[3]" LOC = K17;
+NET "switches[4]" LOC = L14;
+NET "switches[5]" LOC = L13;
+NET "switches[6]" LOC = N17;
+NET "switches[7]" LOC = R17;
+NET "buttons[0]" LOC = H13;
+NET "buttons[1]" LOC = E18;
+NET "buttons[2]" LOC = D18;
+NET "leds[0]" LOC = J14;
+NET "leds[1]" LOC = J15;
+NET "leds[2]" LOC = K15;
+NET "leds[3]" LOC = K14;
+NET "leds[4]" LOC = E17;
+NET "leds[5]" LOC = P15;
+NET "leds[6]" LOC = F4;
+NET "leds[7]" LOC = R4;
+NET "ss_an[0]" LOC = F17;
+NET "ss_an[1]" LOC = H17;
+NET "ss_an[2]" LOC = C18;
+NET "ss_an[3]" LOC = F15;
+NET "ss_ss[0]" LOC = H14;
+NET "ss_ss[1]" LOC = J17;
+NET "ss_ss[2]" LOC = G14;
+NET "ss_ss[3]" LOC = D16;
+NET "ss_ss[4]" LOC = D17;
+NET "ss_ss[5]" LOC = F18;
+NET "ss_ss[6]" LOC = L18;
+NET "ss_dp" LOC = C17;
+
+# PlanAhead Generated physical constraints 
+
+NET "reset" LOC = B18;

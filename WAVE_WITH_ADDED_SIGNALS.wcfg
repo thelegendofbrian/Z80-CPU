@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/CPE_233/CPE233_Exp_8/CPU_12.4/CPU_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_primitives" />
+            <top_module name="vital_timing" />
+            <top_module name="vpkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="40" />
+   <wvobject fp_name="/cpu_tb/in_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in_port[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/clk_global" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_global</obj_property>
+      <obj_property name="ObjectShortName">clk_global</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/oe_pc_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">oe_pc_tb</obj_property>
+      <obj_property name="ObjectShortName">oe_pc_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/inc_pc_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inc_pc_tb</obj_property>
+      <obj_property name="ObjectShortName">inc_pc_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/inst_we_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_we_tb</obj_property>
+      <obj_property name="ObjectShortName">inst_we_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_sel_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_sel_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sel_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/p_val_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">p_val_tb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">p_val_tb[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/we_reg_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">we_reg_tb</obj_property>
+      <obj_property name="ObjectShortName">we_reg_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/tractor_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tractor_tb[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tractor_tb[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/inst_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst_tb[17:0]</obj_property>
+      <obj_property name="ObjectShortName">inst_tb[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mux0_sel_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux0_sel_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mux0_sel_tb[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/mux1_sel_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mux1_sel_tb</obj_property>
+      <obj_property name="ObjectShortName">mux1_sel_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/ld_pc_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld_pc_tb</obj_property>
+      <obj_property name="ObjectShortName">ld_pc_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/op1_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op1_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">op1_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/op2_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">op2_tb[1:0]</obj_property>
+      <obj_property name="ObjectShortName">op2_tb[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/oe_reg_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">oe_reg_tb</obj_property>
+      <obj_property name="ObjectShortName">oe_reg_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rd_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rs_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs_tb[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs_tb[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_in_a_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_in_a_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_in_a_tb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_in_b_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_in_b_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_in_b_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/rf_y_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rf_y_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_y_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_sum_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_sum_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_sum_tb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_c_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_c_tb</obj_property>
+      <obj_property name="ObjectShortName">alu_c_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/alu_z_tb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_z_tb</obj_property>
+      <obj_property name="ObjectShortName">alu_z_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/imm_val_tb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm_val_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_val_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/out_port" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out_port[7:0]</obj_property>
+      <obj_property name="ObjectShortName">out_port[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/port_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">port_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">port_id[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/read_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_strobe</obj_property>
+      <obj_property name="ObjectShortName">read_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/write_strobe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_strobe</obj_property>
+      <obj_property name="ObjectShortName">write_strobe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/scrat_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">scrat_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">scrat_addr[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/back_stack" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">back_stack[9:0]</obj_property>
+      <obj_property name="ObjectShortName">back_stack[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/st_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">st_we</obj_property>
+      <obj_property name="ObjectShortName">st_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/st_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">st_oe</obj_property>
+      <obj_property name="ObjectShortName">st_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/ld_pc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ld_pc</obj_property>
+      <obj_property name="ObjectShortName">ld_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/pc_data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_data_in[9:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_data_in[9:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/dec_sp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dec_sp</obj_property>
+      <obj_property name="ObjectShortName">dec_sp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_tb/uut/inc_sp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inc_sp</obj_property>
+      <obj_property name="ObjectShortName">inc_sp</obj_property>
+   </wvobject>
+</wave_config>
